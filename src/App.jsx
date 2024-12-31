@@ -3,6 +3,8 @@ import Home from "./components/home"
 import Reputation from "./components/Reputation"
 import About from "./components/about"
 import Services from "./components/services"
+import Stats from "./components/stats"
+import Projects from "./components/projects"
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
       <Reputation />
       <About />
       <Services />
+      <Stats/>
+      <Projects/>
     </>
   )
 }
