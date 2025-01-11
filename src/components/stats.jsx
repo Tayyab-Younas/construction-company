@@ -2,11 +2,11 @@
 const stats = () => {
   return (
     <>
-      <div className="stats flex flex-row relative">
-        <img className="w-[70%]" src="./src/assets/stats.png" alt="" />
-        <div className="absolute top-[25%] left-[55%]">
-          <h2 className=" text-blue-900 text-5xl mb-8 font-bold font-sans">30 Years <br /> of Experince</h2>
-          <p className=" font-sans mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br /> Soluta minima quisquam vel esse pariatur. In corporis doloribus <br /> laudantium asperiores eum quia dolore iusto, quos est fuga eaque.</p>
+      <div className="grid lg:grid-cols-2 gap-8 p-7 mx-auto items-center">
+        <img className="w-full lg:w-[90%] sm:w-[80%] mx-auto" src="./src/assets/stats.png" alt="" />
+        <div className="">
+          <h2 className=" text-blue-900 text-5xl mb-8 font-bold font-sans w-80">30 Years of Experince</h2>
+          <p className=" font-sans mb-8 w-60">Our company has been the leading provided construction services to clients throughout the USA since 1988.</p>
           <button className="bg-blue-800 text-white p-2 w-28 text-lg font-serif m-2 rounded">Contact us</button>
         </div>
       </div>
