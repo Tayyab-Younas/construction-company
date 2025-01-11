@@ -1,9 +1,18 @@
 const home = () => {
     return (
-        <div className="homa-img">
-            <img src="./src/assets/main.png" alt="" />
-            <h1 className="absolute top-[50%] left-5 text-7xl font-sans font-medium">Buliding things <br /> is our mission</h1>
+        <div className="homa-img relative">
+        <img 
+          src="./src/assets/main.png" 
+          alt="Main" 
+          className="w-full h-auto object-cover" 
+        />
+        <div className="absolute inset-0 flex items-center justify-start">
+          <h1 className="ml-5 lg:text-5xl md:text-2xl sm:text-lg text-base font-sans font-medium text-black">
+            Building things <br /> is our mission
+          </h1>
         </div>
+      </div>
+      
     )
 }
 
