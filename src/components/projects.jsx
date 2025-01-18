@@ -6,7 +6,7 @@ const projects = () => {
             <div className="flex justify-center text-3xl font-bold font-sans mt-4">
                 <h1>Projects</h1>
             </div>
-            <div className="flex flex-wrap">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-7 mt-3">
                 <div className="max-w-sm rounded mx-auto">
                     <img src="./src/assets/pro-img/project1.png" alt="" />
                     <h1 className="text-white bg-blue-900 p-3 font-semibold">
