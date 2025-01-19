@@ -5,7 +5,7 @@ import About from "./components/about"
 import Services from "./components/services"
 import Stats from "./components/stats"
 import Projects from "./components/projects"
-
+import Contact from "./components/contact"
 function App() {
 
 
@@ -18,6 +18,7 @@ function App() {
       <Services />
       <Stats/>
       <Projects/>
+      <Contact />
     </>
   )
 }
