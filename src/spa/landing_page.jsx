@@ -54,11 +54,11 @@ const LandingPage = () => {
         <img 
           src="./src/assets/main.png" 
           alt="Main" 
-          className="w-full h-auto object-cover" 
+          className="w-full h-auto object-cover " 
           />
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="ml-5 lg:text-5xl md:text-2xl sm:text-lg text-capitalize uppercase font-serif text-black font-semibold">
-            Building things is our mission
+          <h1 className="ml-5 lg:text-5xl md:text-2xl sm:text-lg text-capitalize  font-serif text-black font-semibold">
+            Building things is our misson 
           </h1>
         </div>
       </div>
