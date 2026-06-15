@@ -36,7 +36,7 @@ const LandingPage = () => {
     <section className="Navbar">
       <nav className="navbar flex flex-row justify-between m-auto p-4">
       <div className="brand-logo w-40 px-4">
-        <img className="mb-2" src="./src/assets/logo.png" alt="" />
+        <img className="mb-2" src="/assets/logo.png" alt="" />
       </div>
       <div className="nav-link space-x-5 px-6 font-serif uppercase font-semi-bold text-sm">
         <a href="#home" className="hover:text-orange-300">Home</a>
@@ -52,7 +52,7 @@ const LandingPage = () => {
    <section id="home">
     <div className="home-img relative" id="Home">
         <img 
-          src="./src/assets/main.png" 
+          src="/assets/main.png" 
           alt="Main" 
           className="w-full h-auto object-cover " 
           />
@@ -68,21 +68,21 @@ const LandingPage = () => {
       <div className="flex flex-wrap justify-center gap-6 mt-10 px-4">
         <div className="card-3 border w-full sm:w-[45%] lg:w-[20%] p-4">
           <div className="text-start">
-            <img className="w-12 mb-4" src="./src/assets/icon-1.jpg" alt="Icon 1" />
+            <img className="w-12 mb-4" src="/assets/icon-1.jpg" alt="Icon 1" />
             <h1 className="font-medium mb-2">Best Services</h1>
             <p className="text-sm">Lorem ipsum dolor sit, consectetur adipiscing elit.</p>
           </div>
         </div>
         <div className="card-3 border w-full sm:w-[45%] lg:w-[20%] p-4">
           <div className="text-start">
-            <img className="w-12 mb-4" src="./src/assets/icon-1.jpg" alt="Icon 2" />
+            <img className="w-12 mb-4" src="/assets/icon-1.jpg" alt="Icon 2" />
             <h1 className="font-medium mb-2">Best Team</h1>
             <p className="text-sm">Lorem ipsum dolor sit, consectetur adipiscing elit.</p>
           </div>
         </div>
         <div className="card-3 border w-full sm:w-[45%] lg:w-[20%] p-4">
           <div className="text-start">
-            <img className="w-12 mb-4" src="./src/assets/icon-3.jpg" alt="Icon 3" />
+            <img className="w-12 mb-4" src="/assets/icon-3.jpg" alt="Icon 3" />
             <h1 className="font-medium mb-2">Best Designs</h1>
             <p className="text-sm">Lorem ipsum dolor sit, consectetur adipiscing elit.</p>
           </div>
@@ -94,7 +94,7 @@ const LandingPage = () => {
       {/* About section start */}
       <section id="About">
       <div className="lg:relative text-white font-sans my-4">
-        <img className="w-full lg:w-[60%] p-9" src="./src/assets/about-img.png" alt="" />
+        <img className="w-full lg:w-[60%] p-9" src="/assets/about-img.png" alt="" />
         <div className="lg:absolute p-8 xl:p-10 lg:p-5 lg:top-16 xl:top-24 lg:left-[51%] mx-auto lg:w-[30%] h-[65%] bg-blue-800 lg:text-xs xl:text-2xl">
           <h1 className="font-medium text-3xl mb-4">About us</h1>
           <div className="text-sm mb-3 xl:text-lg">
@@ -114,41 +114,41 @@ const LandingPage = () => {
         <div className="flex justify-center px-4">
           <div className="services grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-full gap-6 m-5 lg:w-[70%]">
             <div className="bg-white p-5 sm:p-7 gap-6 grid place-items-center shadow-md">
-              <img className="w-14 border-b-2 p-3" src="./src/assets/services-img/constru.png" alt="" />
+              <img className="w-14 border-b-2 p-3" src="/assets/services-img/constru.png" alt="" />
               <h1>Construction</h1>
             </div>
             <div className="bg-blue-800 p-5 sm:p-7 gap-6 grid place-items-center text-white shadow-md">
-              <img className="w-14 border-b-2 p-3" src="./src/assets/services-img/Renov.png" alt="" />
+              <img className="w-14 border-b-2 p-3" src="/assets/services-img/Renov.png" alt="" />
               <h1>Renovation</h1>
             </div>
             <div className="bg-white p-5 sm:p-7 gap-6 grid place-items-center shadow-md">
-              <img className="w-14 border-b-2 p-3" src="./src/assets/services-img/consu.png" alt="" />
+              <img className="w-14 border-b-2 p-3" src="/assets/services-img/consu.png" alt="" />
               <h1>Consultation</h1>
             </div>
             <div className="bg-blue-800 p-5 sm:p-7 gap-6 grid place-items-center text-white shadow-md">
-              <img className="w-14 border-b-2 p-3" src="./src/assets/services-img/repair.png" alt="" />
+              <img className="w-14 border-b-2 p-3" src="/assets/services-img/repair.png" alt="" />
               <h1>Repair Services</h1>
             </div>
             <div className="bg-white p-5 sm:p-7 gap-6 grid place-items-center shadow-md">
-              <img className="w-14 border-b-2 p-3" src="./src/assets/services-img/Archit.png" alt="" />
+              <img className="w-14 border-b-2 p-3" src="/assets/services-img/Archit.png" alt="" />
               <h1>Architecture</h1>
             </div>
             <div className="bg-blue-800 p-5 sm:p-7 gap-6 grid place-items-center text-white shadow-md">
-              <img className="w-14 border-b-2 p-3" src="./src/assets/services-img/electric.png" alt="" />
+              <img className="w-14 border-b-2 p-3" src="/assets/services-img/electric.png" alt="" />
               <h1>Electric</h1>
             </div>
           </div>
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <img className="w-[60%]" src="./src/assets/stats.png" alt="" />
+        <img className="w-[60%]" src="/assets/stats.png" alt="" />
         <div className="text w-60">
           <h2 className="text-blue-900 text-4xl mb-4 font-bold font-sans">30 Years Experience</h2>
           <p className="font-sans text-xs mb-4">Our company has been the leading provided construction services to clients throughout the USA since 1988.</p>
           <button className="bg-blue-800 text-white p-2 text-sm font-serif m-2 rounded">Contact us</button>
         </div>
       </div>
-      <div className="p-20 bg-[url('./src/assets/ads.png')] bg-center bg-cover grid justify-center">
+      <div className="p-20 bg-[url('/assets/ads.png')] bg-center bg-cover grid justify-center">
         <h1 className="text-white font-sans font-bold text-3xl mb-3">Free consulation with exceptional quality</h1>
         <button className="bg-transparent border text-white p-2 w-48 font-sans text-lg rounded mx-auto">Get your consulation</button>
       </div>
@@ -162,22 +162,22 @@ const LandingPage = () => {
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-7 mt-3">
         <div className="max-w-sm rounded mx-auto">
-          <img src="./src/assets/pro-img/project1.png" alt="" />
+          <img src="/assets/pro-img/project1.png" alt="" />
           <h1 className="text-white bg-blue-900 p-3 font-semibold">Oregano Height</h1>
           <address className="text-white bg-blue-900 px-3">2464 Royal Ln. Mesa, New Jersey</address>
         </div>
         <div className="max-w-sm rounded mx-auto">
-          <img src="./src/assets/pro-img/project2.png" alt="" />
+          <img src="/assets/pro-img/project2.png" alt="" />
           <h1 className="text-white bg-blue-900 p-3 font-semibold">Wish Stone Building</h1>
           <address className="text-white bg-blue-900 px-3">2972 Westheimer Rd. Santa Ana, Illionis</address>
         </div>
         <div className="max-w-sm rounded mx-auto">
-          <img src="./src/assets/pro-img/project3.png" alt="" />
+          <img src="/assets/pro-img/project3.png" alt="" />
           <h1 className="text-white bg-blue-900 p-3 font-semibold">Mr. Parkinstons House</h1>
           <address className="text-white bg-blue-900 px-3">3517 W. Gray St. San Francisco, California</address>
         </div>
         <div className="max-w-sm rounded mx-auto">
-          <img src="./src/assets/pro-img/project4.png" alt="" />
+          <img src="/assets/pro-img/project4.png" alt="" />
           <h1 className="text-white bg-blue-900 p-3 font-semibold">Wildstone Infra Hotel</h1>
           <address className="text-white bg-blue-900 px-3">4845 E. Washington St. San Diego, California</address>
         </div>
